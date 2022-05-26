@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/* common */
+
+* , *::before , *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 5%;
+}
+
+/* header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color: rgba(255,255,255,.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* main_visual */
+
+.main_visual img {
+    width: 100%;
+}
+
+/* about */
+
+#about {
+    text-align: center;
+    background-image: url(img/about_bg.jpg);
+    background-size: cover;
+    border: 2px solid #e89805;
+    margin: 10%;
+    padding: 5% 10%;
+}
+
+h2.about_title {
+    text-shadow: 2px 2px 0px #e89805;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+h3 , h4 {
+    color: #e89805;
+}
+
+h3 {
+    margin-bottom: 30px;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+/* point */
+
+#point {
+    text-align: center;
+    background-image: url(img/orange_bg.jpg);
+    padding: 5% 10%;
+}
+
+h2 {
+    letter-spacing: 10px;
+    margin-bottom: 30px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* flow */
+
+.flow_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.flow_box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.flow_box img {
+    margin: 0 50px;
+}
+
+/* access */
+
+#access {
+    background-color: #eee;
+    padding: 5%;
+}
+
+.access_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+img.city {
+    width: 300px;
+}
+
+.access_flex {
+    display: flex;
+}
+
+.access_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 50px
+}
+
+h5 {
+    font-size: 16px;
+}
+
+/* footer */
+
+footer {
+    background-color: #333;
+    text-align: center;
+    height: 50px;
+}
+
+footer p {
+    color: #fff;
+    line-height: 50px;
+}
