@@ -177,3 +177,51 @@ footer p {
     color: #fff;
     line-height: 50px;
 }
+
+/* responsive */
+
+@media (max-width:768px) {
+
+    header {
+        display: none;
+    }
+
+    #about {
+        background-color: rgba(255,255,255,.8);
+        background-blend-mode: lighten;
+    }
+
+    h2 {
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: calc(100%/2);
+        margin-bottom: 10px;
+    }
+
+    .box p {
+        font-size: 12px;
+    }
+
+    .flow_header , .flow_box , .access_header , .access_flex {
+        flex-direction: column;
+    }
+
+    .access_box {
+        margin: 10px 0;
+    }
+
+    h5 {
+        margin-bottom: 10px;
+    }
+
+    iframe {
+        width: 100%;
+    }
+}
